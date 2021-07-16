@@ -1,0 +1,12 @@
+#!/bin/bash
+
+basedir='extensions'
+freshdir='/usr/share/webapps/freshrss/extensions'
+
+declare -a extensions
+readarray extensions < <(find $basedir -type d -name 'xExtension-*' -printf '%f %p\n')
+
+for extension in "${extensions[@]}"; do
+  read -r ename epath <<< "$extension"
+  sudo rsync -aviHS --exclude '.git*' "$epath" "$freshdir/$ename"
+done

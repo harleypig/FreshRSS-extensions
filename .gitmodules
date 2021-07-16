@@ -1,0 +1,27 @@
+[submodule "extensions/freshrss-explosm"]
+	path = extensions/freshrss-explosm
+	url = https://framagit.org/dohseven/freshrss-explosm.git
+[submodule "extensions/xExtension-DateFormat"]
+	path = extensions/xExtension-DateFormat
+	url = https://github.com/aledeg/xExtension-DateFormat.git
+[submodule "extensions/xExtension-LatexSupport"]
+	path = extensions/xExtension-LatexSupport
+	url = https://github.com/aledeg/xExtension-LatexSupport.git
+[submodule "extensions/xExtension-RedditImage"]
+	path = extensions/xExtension-RedditImage
+	url = https://github.com/aledeg/xExtension-RedditImage.git
+[submodule "extensions/FreshRSS-Extensions"]
+	path = extensions/FreshRSS-Extensions
+	url = https://github.com/DevonHess/FreshRSS-Extensions.git
+[submodule "extensions/freshrss-extensions"]
+	path = extensions/freshrss-extensions
+	url = https://github.com/kapdap/freshrss-extensions.git
+[submodule "extensions/freshrss-dilbert"]
+	path = extensions/freshrss-dilbert
+	url = https://github.com/kevinpapst/freshrss-dilbert.git
+[submodule "extensions/freshrss-youtube"]
+	path = extensions/freshrss-youtube
+	url = https://github.com/kevinpapst/freshrss-youtube.git
+[submodule "extensions/FreshRSS-extensions"]
+	path = extensions/FreshRSS-extensions
+	url = https://github.com/langfeld/FreshRSS-extensions.git

@@ -29,22 +29,21 @@ These extensions are added as submodules to this repository.
 
 This repository manages the installation and updating of these extensions.
 
-Removing extensions is not supported. You will need to manually delete them
-from the `extensions` directory.
+You will need to manually delete them from the `extensions` directory.
 
-* [ClickableLinks](https://github.com/kapdap/freshrss-extensions.git)
-* [DateFormat](https://github.com/aledeg/xExtension-DateFormat.git)
-* [Dilbert](https://github.com/kevinpapst/freshrss-dilbert.git)
-* [Explosm](https://framagit.org/dohseven/freshrss-explosm.git)
-* [FixedNavMenu](https://github.com/langfeld/FreshRSS-extensions.git)
-* [KeepFolderState](https://github.com/langfeld/FreshRSS-extensions.git)
-* [LatexSupport](https://github.com/aledeg/xExtension-LatexSupport.git)
-* [MobileScrollMenu](https://github.com/langfeld/FreshRSS-extensions.git)
-* [RedditImage](https://github.com/aledeg/xExtension-RedditImage.git)
-* [RSS-Bridge](https://github.com/DevonHess/FreshRSS-Extensions.git)
-* [SmartMobileMenu](https://github.com/langfeld/FreshRSS-extensions.git)
-* [TouchControl](https://github.com/langfeld/FreshRSS-extensions.git)
-* [YouTube](https://github.com/kevinpapst/freshrss-youtube.git)
+* [ClickableLinks](https://github.com/kapdap/freshrss-extensions.git) (dir)
+* [DateFormat](https://github.com/aledeg/xExtension-DateFormat.git) (repo)
+* [Dilbert](https://github.com/kevinpapst/freshrss-dilbert.git) (dir)
+* [Explosm](https://framagit.org/dohseven/freshrss-explosm.git) (dir)
+* [FixedNavMenu](https://github.com/langfeld/FreshRSS-extensions.git) (dir)
+* [KeepFolderState](https://github.com/langfeld/FreshRSS-extensions.git) (dir)
+* [LatexSupport](https://github.com/aledeg/xExtension-LatexSupport.git) (repo)
+* [MobileScrollMenu](https://github.com/langfeld/FreshRSS-extensions.git) (dir)
+* [RedditImage](https://github.com/aledeg/xExtension-RedditImage.git) (repo)
+* [RSS-Bridge](https://github.com/DevonHess/FreshRSS-Extensions.git) (dir)
+* [SmartMobileMenu](https://github.com/langfeld/FreshRSS-extensions.git) (dir)
+* [TouchControl](https://github.com/langfeld/FreshRSS-extensions.git) (dir)
+* [YouTube](https://github.com/kevinpapst/freshrss-youtube.git) (dir)
 
 The install script knows what to install based on the final word in parens.
 
@@ -56,3 +55,17 @@ The install script knows what to install based on the final word in parens.
 Extensions will be copied to `/usr/share/webapps/freshrss/extensions` as
 `xExtension-[linkname]`. These files need to be owned by root, so a sudo call
 will be made.
+
+### Add a new extension
+
+Add an entry to the list above.
+
+`git submodule add <repo link>`
+
+
+
+### Update an extension
+
+#### Update all extensions
+
+### Remove an extension

@@ -8,5 +8,5 @@ readarray extensions < <(find $basedir -type d -name 'xExtension-*' -printf '%f 
 
 for extension in "${extensions[@]}"; do
   read -r ename epath <<< "$extension"
-  sudo rsync -aviHS --exclude '.git*' "$epath" "$freshdir/$ename"
+  sudo rsync -aviHS --exclude '.git*' --delete "$epath/" "$freshdir/$ename/"
 done
